@@ -7,11 +7,6 @@
   margin: 0 auto;
 }
 
-.container img{
-  float:left;
-  margin:3px;
-}
-
 .menu {
   float: right;
 }
@@ -123,6 +118,8 @@ th{
   width: 200px;
   height: 100%;
   border-radius: 20px;
+  float:left;
+  margin:3px;
 }
 
 .item-info {
@@ -230,7 +227,7 @@ hr.bar {
     top: 40px;
     width: 150px;
     height: 100%;
-    background: red;
+    background: none;
    }
 
    .menu li {
@@ -243,7 +240,6 @@ hr.bar {
    }
 
    #my-avatar img {
-     float:center;
      display: block;
      margin: 15px auto;
    }
@@ -254,8 +250,9 @@ hr.bar {
     }
 
     #final p{
-      margin : 0 auto;
+      margin:0;
       margin-bottom: 20px;
+      display:table;
     }
     #content{
       top:0;
@@ -265,5 +262,9 @@ hr.bar {
     }
     #my-pencil img{
       margin-right:25px;
+    }
+    #heart img{
+      margin:20px 20px;
+
     }
 }
