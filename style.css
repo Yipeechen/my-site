@@ -264,7 +264,11 @@ hr.bar {
       margin-right:25px;
     }
     #heart img{
-      margin:20px 20px;
-
+      float:none;
+      display: block;
+      margin: 15px auto;
+    }
+    #final h1 {
+      margin-top:20px;
     }
 }
